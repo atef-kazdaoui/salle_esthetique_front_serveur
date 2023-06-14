@@ -1,0 +1,26 @@
+h1 {
+    color:brown;
+    font-style: italic;
+    text-align: center;
+  }
+ .container {
+   margin-top: auto;
+   height: 65vh;
+   /* Réduire la hauteur à 50% de la hauteur de l'écran */
+   width: 50vw;
+ }
+  
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+  

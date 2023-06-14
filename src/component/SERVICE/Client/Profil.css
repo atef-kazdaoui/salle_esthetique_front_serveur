@@ -1,0 +1,19 @@
+.profil{
+    height: 800px;
+}
+
+
+.card{
+    height: 100%;
+}
+.col-md-6 {
+   height:700px ;
+  min-width: 30cm;
+  
+}
+.profile-image {
+    max-height: 450px;
+    max-width: 600px;
+
+    /* Définissez la valeur souhaitée pour la hauteur */
+}

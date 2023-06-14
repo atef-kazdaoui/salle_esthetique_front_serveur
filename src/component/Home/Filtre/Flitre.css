@@ -1,0 +1,89 @@
+#categorie-select {
+  display: block;
+  margin-bottom: 10px;
+}
+.modal {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: calc(25% - 20px);
+  /* Ajuster la largeur pour afficher 4 produits par ligne */
+  margin: 10px;
+  transition: box-shadow 0.3s, transform 0.3s;
+  /* Ajout de la transition pour l'effet de déplacement */
+  background-color: transparent;
+  /* Mise à jour de la couleur d'arrière-plan à transparent */
+  position: relative;
+}
+
+.product-card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 244, 253, 0.5);
+  /* Définir la couleur d'arrière-plan transparente */
+  z-index: -1;
+}
+
+.product-card:hover {
+  transform: scale(0.9);
+  /* Réduire la taille de la carte à 90% de sa taille d'origine */
+}
+
+.product-card img {
+  width: 100%;
+  height: 70%;
+}
+
+.product-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.product-info p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.product-info button {
+  display: block;
+  margin: 10px auto;
+}
+
+h4 {
+  font-family: 'Orbitron', sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Orbitron', sans-serif;
+    color: #000000;
+  font-weight: initial;  
+  
+}
+#atef {
+  background-color: #C6CEE5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
