@@ -66,7 +66,7 @@ function Detail () {
   }
 
   return (
-    <div className="product-container">
+    <div className="product-container"> 
       <Row>
         <Col sm={5} md={5}>
           <div className="product-image">

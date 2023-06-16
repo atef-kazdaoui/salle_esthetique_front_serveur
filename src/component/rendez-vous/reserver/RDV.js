@@ -13,11 +13,11 @@ function RDV () {
     axios
       .get ('http://162.19.25.151:5000/rendez-vous/find')
       .then (res => {
-        console.log (res.data);
+        console.log (res.data.rendezVousDisponibles);
         setRendezVousDisponibles (res.data.rendezVousDisponibles);
       })
       .catch (error => {
-        console.log (error.response.data);
+        console.log ("ici",error.response.data);
       });
   }, []);
 
@@ -28,7 +28,7 @@ function RDV () {
     minute_disponible
   ) => {
     const rendezVousData = {
-      id_user: id,
+      iduser: id,
       date_disponible: date_disponible,
       heure_disponible: heure_disponible,
       minute_disponible: minute_disponible,

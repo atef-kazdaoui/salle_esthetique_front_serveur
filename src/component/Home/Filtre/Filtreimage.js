@@ -71,7 +71,7 @@ function ProductList () {
       console.log (nom, id);
 
       // Mettre à jour les valeurs de id_user et id_produit si nécessaire
-      data.id_user = id;
+      data.iduser = id;
       data.id_produit = idProduit;
     }
 

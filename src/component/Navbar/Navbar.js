@@ -63,7 +63,7 @@ function Navbare(props) {
             <Nav.Link as={Link} to="/home">LA GAMME</Nav.Link>
             <Nav.Link as={Link} to="/MARQUE">LA MARQUE</Nav.Link>
             <Nav.Link as={Link} to="/PRATICIEN">PRATICIEN</Nav.Link>
-            <Nav.Link as={Link} to="/LEMAG">LE MAG</Nav.Link>;
+            <Nav.Link as={Link} to="/LEMAG">LE MAG</Nav.Link>
 
 
 
